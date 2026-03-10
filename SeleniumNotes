@@ -1,1 +1,66 @@
+Selenium
+selenium - it is a webdriver automation tool, which is used to automate web based application. it is open source tool. it is platform in-dependent and also it supports multiple language.
+ 
+ 
+Disadvantage - 
+- it can not automate otp, images, captcha, barcodes. 
+- it can not automate window based popups
+- it can not automate android based application.
+ 
+Components of selenium -
+- Selenium IDE  Download as extention, attach to browser then click on record and play then execute your steps support only firefox, No programming required
+- selenium RC   Multiple languages for coding
+- selenium grid Multiple browsers support
+- selenium Webdriver 
 
+Locator
+It used to locate web element. it is devided into 8 type
+- id
+- name
+- tagname
+- classname
+- LinkText 
+- partialLinkText
+- CSS selector
+- xpath
+
+Note: 
+id is fastest.
+css is faster then xpath.
+
+Types of xpath:
+1 absolute xpath - starts with '/' and it always travers in forward direction, it is slow and static in nature because of which it is not much stable
+2 relative xpath - starts with '//' and it travers in both direction, it is dynamic in nature because of which it is more stable
+
+we use xpath majorly because it provides multiple methods which we can use to locate complex webelements easily, those methods are:
+- following
+- following-sibing
+- starts-with
+- ends-with
+- preceding
+- preceding-sibling
+- parent
+- child
+- And
+- Or
+- Ancester
+- decedent
+- contains
+- texts
+- normalise-space
+
+TestNg - it is a framework which is based on TDD. it is used in place of junit. it is also called as test next generation. it gives us multiple advantage like beloew.
+ 
+1) it provides annotations with the help of which we execute our code.
+  - @beforeSuit
+  - @beforeTest
+  - @beforeClass
+  - @beforeMethod
+  - @Test
+  - @afterMethod
+  - @afterClass
+  - @afterTest
+  - @afterSuit
+ 
+2) it gives us .xml from where we connect all test classes to execute in together.
+3) it give us automatically generated reports.
