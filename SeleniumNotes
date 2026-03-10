@@ -64,3 +64,10 @@ TestNg - it is a framework which is based on TDD. it is used in place of junit. 
  
 2) it gives us .xml from where we connect all test classes to execute in together.
 3) it give us automatically generated reports.
+
+Project from scratch
+- Create a java project
+- make folder structure as given in image below
+- add driver.exe file to Webdriver folder.
+Refer to https://github.com/Geetanjali-V/23JuneTestB/blob/main/TestingBabaAutomation25Dec/Screenshot%202026-03-11%20001608.png
+Step 1 : 
